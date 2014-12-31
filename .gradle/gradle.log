@@ -33,148 +33,148 @@ Note: Recompile with -Xlint:unchecked for details.
 :getAssets
 :makeStart SKIPPED
 :runClient
-[21:02:44] [main/INFO]: Extra: []
-[21:02:45] [main/INFO]: Found and added coremod: appeng.transformer.AppEngCore
-[21:02:45] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Zacharias/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
-[21:02:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[21:02:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[21:02:45] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[21:02:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[21:02:45] [main/INFO]: Forge Mod Loader version 7.10.85.1230 for Minecraft 1.7.10 loading
-[21:02:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_60, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_60\jre
-[21:02:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:02:45] [main/INFO]: Found a command line coremod : appeng.transformer.AppEngCore
-[21:02:45] [main/INFO]: [AppEng] Core Init
-[21:02:45] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[21:02:45] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[21:02:45] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[21:02:45] [main/INFO]: Injecting location in coremod appeng.transformer.AppEngCore
-[21:02:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[21:02:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:02:45] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[21:02:46] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[21:02:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:02:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:02:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[21:02:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[21:02:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[21:02:47] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:02:48] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Transformed
-[21:02:48] [main/INFO]: func_146977_a_original(Lnet/minecraft/inventory/Slot;)V - New Method
-[21:02:48] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Invoke Virtual
-[21:02:51] [main/INFO]: Setting user: Player515
-[21:02:52] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:02:53] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[21:02:53] [Client thread/INFO]: MinecraftForge v10.13.2.1230 Initialized
-[21:02:53] [Client thread/INFO]: Replaced 182 ore recipies
-[21:02:53] [Client thread/INFO]: Completed early MinecraftForge initialization
-[21:02:54] [Client thread/INFO]: [AppEng] Core Init
-[21:02:54] [Client thread/INFO]: Searching C:\Users\Zacharias\Desktop\Git\AE2xtender\run\mods for mods
-[21:02:57] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
-[21:02:57] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, appliedenergistics2, AE2XTender] at CLIENT
-[21:02:57] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, appliedenergistics2, AE2XTender] at SERVER
-[21:02:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:AE2Xtender
-[21:02:58] [Client thread/INFO]: Processing ObjectHolder annotations
-[21:02:58] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[21:02:58] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[21:02:58] [Client thread/INFO]: Starting ( PreInit )
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/parts/misc/PartStorageBus
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PItems
-[21:02:59] [Client thread/INFO]: Removing Method provider from appeng/integration/modules/MJ6 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/integration/modules/MJ6
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.mj.ISidedBatteryProvider from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryObject from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.power.IPowerReceptor from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface appeng.api.networking.ticking.IGridTickable from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getTickingRequest from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method tickingRequest from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getTargetBattery from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getPowerTarget from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getPowerReceiver from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method doWork from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getMjBattery from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getEnergyRequested from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method addEnergy from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method addEnergy from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method addEnergyInternal from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getEnergyStored from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method setEnergyStored from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method minimumConsumption from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method maxReceivedPerCycle from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method reconfigure from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method kind from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PBCPower
-[21:02:59] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySource from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PIC2Power
-[21:02:59] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyReceiver from appeng/parts/p2p/PartP2PRFPower because RF integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PRFPower
-[21:02:59] [Client thread/INFO]: Removing Interface powercrystals.minefactoryreloaded.api.rednet.connectivity.IRedNetConnection from appeng/block/networking/BlockCableBus because MFR integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getConnectionType from appeng/block/networking/BlockCableBus because MFR integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/block/networking/BlockCableBus
-[21:02:59] [Client thread/INFO]: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
-[21:02:59] [Client thread/INFO]: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.power.IPowerReceptor from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method Tick_MinecraftJoules5 from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getPowerReceiver from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method doWork from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getWorld from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/MinecraftJoules5
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryProvider from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryObject from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method kind from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getEnergyRequested from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method addEnergy from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method addEnergy from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getEnergyStored from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method setEnergyStored from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method maxCapacity from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method minimumConsumption from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method maxReceivedPerCycle from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method reconfigure from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getMjBattery from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/MinecraftJoules6
-[21:02:59] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/tile/powersink/IC2 because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/IC2
-[21:02:59] [Client thread/INFO]: Removing Interface Reika.RotaryCraft.API.ShaftPowerReceiver from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method Tick_RotaryCraft from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/RotaryCraft
-[21:02:59] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyReceiver from appeng/tile/powersink/RedstoneFlux because RF integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/RedstoneFlux
-[21:02:59] [Client thread/INFO]: Removing Interface mekanism.api.energy.IStrictEnergyAcceptor from appeng/tile/powersink/MekJoules because Mekanism integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/tile/powersink/MekJoules
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/quartz/ToolQuartzWrench because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/items/tools/quartz/ToolQuartzWrench
-[21:02:59] [Client thread/INFO]: Removing Interface ic2.api.item.ISpecialElectricItem from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Interface ic2.api.item.IElectricItemManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Removing Method getManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/items/tools/powered/powersink/IC2
-[21:02:59] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyContainerItem from appeng/items/tools/powered/powersink/RedstoneFlux because RFItem integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/items/tools/powered/powersink/RedstoneFlux
-[21:02:59] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/ToolNetworkTool because BC integration is disabled.
-[21:02:59] [Client thread/INFO]: Updated appeng/items/tools/ToolNetworkTool
-[21:02:59] [Client thread/INFO]: Starting VersionChecker
-[21:02:59] [Client thread/INFO]: PreInit ( end 1357ms )
-[21:02:59] [Client thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:02:59] [Client thread/INFO]: Pre Initialization Complete!
-[21:02:59] [Client thread/INFO]: Applying holder lookups
-[21:02:59] [Client thread/INFO]: Holder lookups applied
-[21:03:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[21:03:00] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[21:03:00] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:03:00] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[21:03:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:00] [Sound Library Loader/INFO]: Sound engine started
-[21:03:02] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[21:03:02] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
+[22:12:41] [main/INFO]: Extra: []
+[22:12:41] [main/INFO]: Found and added coremod: appeng.transformer.AppEngCore
+[22:12:41] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Zacharias/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
+[22:12:41] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:12:41] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:12:41] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[22:12:41] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:12:41] [main/INFO]: Forge Mod Loader version 7.10.85.1230 for Minecraft 1.7.10 loading
+[22:12:41] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_60, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_60\jre
+[22:12:41] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:12:41] [main/INFO]: Found a command line coremod : appeng.transformer.AppEngCore
+[22:12:41] [main/INFO]: [AppEng] Core Init
+[22:12:41] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[22:12:41] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[22:12:41] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:12:41] [main/INFO]: Injecting location in coremod appeng.transformer.AppEngCore
+[22:12:41] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:12:41] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:12:41] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:12:41] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:12:41] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:12:41] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[22:12:43] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[22:12:43] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:12:43] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:12:43] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:12:44] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:12:44] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:12:44] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:12:45] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Transformed
+[22:12:45] [main/INFO]: func_146977_a_original(Lnet/minecraft/inventory/Slot;)V - New Method
+[22:12:45] [main/INFO]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Invoke Virtual
+[22:12:47] [main/INFO]: Setting user: Player281
+[22:12:49] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:12:50] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[22:12:50] [Client thread/INFO]: MinecraftForge v10.13.2.1230 Initialized
+[22:12:50] [Client thread/INFO]: Replaced 182 ore recipies
+[22:12:50] [Client thread/INFO]: Completed early MinecraftForge initialization
+[22:12:50] [Client thread/INFO]: [AppEng] Core Init
+[22:12:50] [Client thread/INFO]: Searching C:\Users\Zacharias\Desktop\Git\AE2xtender\run\mods for mods
+[22:12:54] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
+[22:12:54] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, appliedenergistics2, AE2XTender] at CLIENT
+[22:12:54] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, appliedenergistics2, AE2XTender] at SERVER
+[22:12:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:AE2Xtender
+[22:12:54] [Client thread/INFO]: Processing ObjectHolder annotations
+[22:12:54] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[22:12:54] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[22:12:55] [Client thread/INFO]: Starting ( PreInit )
+[22:12:55] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/misc/PartStorageBus because BC integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/parts/misc/PartStorageBus
+[22:12:55] [Client thread/INFO]: Removing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method overridePipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PItems
+[22:12:55] [Client thread/INFO]: Removing Method provider from appeng/integration/modules/MJ6 because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/integration/modules/MJ6
+[22:12:55] [Client thread/INFO]: Removing Interface buildcraft.api.mj.ISidedBatteryProvider from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryObject from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Interface buildcraft.api.power.IPowerReceptor from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Interface appeng.api.networking.ticking.IGridTickable from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getTickingRequest from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method tickingRequest from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getTargetBattery from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getPowerTarget from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getPowerReceiver from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method doWork from appeng/parts/p2p/PartP2PBCPower because MJ5 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getMjBattery from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getEnergyRequested from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method addEnergy from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method addEnergy from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method addEnergyInternal from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getEnergyStored from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method setEnergyStored from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method minimumConsumption from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method maxReceivedPerCycle from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method reconfigure from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method kind from appeng/parts/p2p/PartP2PBCPower because MJ6 integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PBCPower
+[22:12:55] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySource from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PIC2Power
+[22:12:55] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyReceiver from appeng/parts/p2p/PartP2PRFPower because RF integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/parts/p2p/PartP2PRFPower
+[22:12:55] [Client thread/INFO]: Removing Interface powercrystals.minefactoryreloaded.api.rednet.connectivity.IRedNetConnection from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[22:12:55] [Client thread/INFO]: Removing Method getConnectionType from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[22:12:55] [Client thread/INFO]: Updated appeng/block/networking/BlockCableBus
+[22:12:55] [Client thread/INFO]: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[22:12:55] [Client thread/INFO]: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[22:12:56] [Client thread/INFO]: Removing Interface buildcraft.api.power.IPowerReceptor from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method Tick_MinecraftJoules5 from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getPowerReceiver from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method doWork from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getWorld from appeng/tile/powersink/MinecraftJoules5 because MJ5 integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/MinecraftJoules5
+[22:12:56] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryProvider from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Interface buildcraft.api.mj.IBatteryObject from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method kind from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getEnergyRequested from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method addEnergy from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method addEnergy from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getEnergyStored from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method setEnergyStored from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method maxCapacity from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method minimumConsumption from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method maxReceivedPerCycle from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method reconfigure from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getMjBattery from appeng/tile/powersink/MinecraftJoules6 because MJ6 integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/MinecraftJoules6
+[22:12:56] [Client thread/INFO]: Removing Interface ic2.api.energy.tile.IEnergySink from appeng/tile/powersink/IC2 because IC2 integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/IC2
+[22:12:56] [Client thread/INFO]: Removing Interface Reika.RotaryCraft.API.ShaftPowerReceiver from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method Tick_RotaryCraft from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/RotaryCraft
+[22:12:56] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyReceiver from appeng/tile/powersink/RedstoneFlux because RF integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/RedstoneFlux
+[22:12:56] [Client thread/INFO]: Removing Interface mekanism.api.energy.IStrictEnergyAcceptor from appeng/tile/powersink/MekJoules because Mekanism integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/tile/powersink/MekJoules
+[22:12:56] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/quartz/ToolQuartzWrench because BC integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/items/tools/quartz/ToolQuartzWrench
+[22:12:56] [Client thread/INFO]: Removing Interface ic2.api.item.ISpecialElectricItem from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Interface ic2.api.item.IElectricItemManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[22:12:56] [Client thread/INFO]: Removing Method getManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/items/tools/powered/powersink/IC2
+[22:12:56] [Client thread/INFO]: Removing Interface cofh.api.energy.IEnergyContainerItem from appeng/items/tools/powered/powersink/RedstoneFlux because RFItem integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/items/tools/powered/powersink/RedstoneFlux
+[22:12:56] [Client thread/INFO]: Removing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/ToolNetworkTool because BC integration is disabled.
+[22:12:56] [Client thread/INFO]: Updated appeng/items/tools/ToolNetworkTool
+[22:12:56] [Client thread/INFO]: Starting VersionChecker
+[22:12:56] [Client thread/INFO]: PreInit ( end 1554ms )
+[22:12:56] [Client thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:12:56] [Client thread/INFO]: Pre Initialization Complete!
+[22:12:56] [Client thread/INFO]: Applying holder lookups
+[22:12:56] [Client thread/INFO]: Holder lookups applied
+[22:12:56] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:12:56] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:12:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:12:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:12:57] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:12:57] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:12:57] [Sound Library Loader/INFO]: Sound engine started
+[22:12:58] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[22:12:59] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -194,58 +194,58 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_I
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:03:02] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:03:02] [Client thread/INFO]: Init
-[21:03:02] [Client thread/INFO]: Recipes Loading: Pulverizer: 9 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: OreRegistration: 12 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: MekEnrichment: 2 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Inscribe: 8 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: HCCrusher: 9 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Crusher: 9 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Shaped: 195 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Shapeless: 56 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: MekCrusher: 6 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Macerator: 8 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: GrindFZ: 7 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Grind: 4 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Press: 3 loaded.
-[21:03:02] [Client thread/INFO]: Recipes Loading: Smelt: 6 loaded.
-[21:03:02] [Client thread/INFO]: Init ( end 190ms )
-[21:03:02] [Client thread/INFO]: Initialization Complete!
-[21:03:02] [Client thread/INFO]: PostInit
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBus loaded successfully - 5196 bytes
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBus loaded successfully - 2441 bytes
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBus loaded successfully - 1070 bytes
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBusTESR loaded successfully - 5208 bytes
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBusTESR loaded successfully - 2453 bytes
-[21:03:02] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBusTESR loaded successfully - 1082 bytes
-[21:03:02] [Client thread/INFO]: Industrial Craft 2 - Integration Disabled
-[21:03:02] [Client thread/INFO]: Rotary Craft - Integration Disabled
-[21:03:02] [Client thread/INFO]: Railcraft - Integration Disabled
-[21:03:02] [Client thread/INFO]: BuildCraft - Integration Disabled
-[21:03:02] [Client thread/INFO]: BuildCraft6 Power - Integration Disabled
-[21:03:02] [Client thread/INFO]: BuildCraft5 Power - Integration Disabled
-[21:03:02] [Client thread/INFO]: RedstoneFlux Power - Tiles - Integration Disabled
-[21:03:02] [Client thread/INFO]: RedstoneFlux Power - Items - Integration Disabled
-[21:03:02] [Client thread/INFO]: Mine Factory Reloaded - Integration Disabled
-[21:03:02] [Client thread/INFO]: Deep Storage Unit - Integration Disabled
-[21:03:02] [Client thread/INFO]: Factorization - Integration Disabled
-[21:03:02] [Client thread/INFO]: Forge MultiPart - Integration Disabled
-[21:03:02] [Client thread/INFO]: Rotatable Blocks - Integration Disabled
-[21:03:02] [Client thread/INFO]: Colored Lights Core - Integration Disabled
-[21:03:02] [Client thread/INFO]: Waila - Integration Disabled
-[21:03:02] [Client thread/INFO]: Inventory Tweaks - Integration Disabled
-[21:03:02] [Client thread/INFO]: Not Enough Items - Integration Disabled
-[21:03:02] [Client thread/INFO]: Craft Guide - Integration Disabled
-[21:03:02] [Client thread/INFO]: Mekanism - Integration Disabled
-[21:03:02] [Client thread/INFO]: ImmibisMicroblocks - Integration Disabled
-[21:03:02] [Client thread/INFO]: BetterStorage - Integration Disabled
-[21:03:03] [Client thread/INFO]: PostInit ( end 465ms )
-[21:03:03] [Client thread/INFO]: Post Initialization Complete!
-[21:03:03] [Client thread/INFO]:   Unknown recipe class! appeng.recipes.game.DisassembleRecipe Modder please refer to net.minecraftforge.oredict.RecipeSorter
-[21:03:03] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
-[21:03:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:AE2Xtender
-[21:03:03] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
+[22:12:59] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:12:59] [Client thread/INFO]: Init
+[22:12:59] [Client thread/INFO]: Recipes Loading: Grind: 4 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Smelt: 6 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: MekEnrichment: 2 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Crusher: 9 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: OreRegistration: 12 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Macerator: 8 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: HCCrusher: 9 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Shapeless: 56 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Pulverizer: 9 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Inscribe: 8 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Shaped: 195 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: MekCrusher: 6 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: Press: 3 loaded.
+[22:12:59] [Client thread/INFO]: Recipes Loading: GrindFZ: 7 loaded.
+[22:12:59] [Client thread/INFO]: Init ( end 221ms )
+[22:12:59] [Client thread/INFO]: Initialization Complete!
+[22:12:59] [Client thread/INFO]: PostInit
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBus loaded successfully - 5196 bytes
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBus loaded successfully - 2441 bytes
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBus loaded successfully - 1070 bytes
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBusTESR loaded successfully - 5208 bytes
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBusTESR loaded successfully - 2453 bytes
+[22:12:59] [Client thread/INFO]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBusTESR loaded successfully - 1082 bytes
+[22:12:59] [Client thread/INFO]: Industrial Craft 2 - Integration Disabled
+[22:12:59] [Client thread/INFO]: Rotary Craft - Integration Disabled
+[22:12:59] [Client thread/INFO]: Railcraft - Integration Disabled
+[22:12:59] [Client thread/INFO]: BuildCraft - Integration Disabled
+[22:12:59] [Client thread/INFO]: BuildCraft6 Power - Integration Disabled
+[22:12:59] [Client thread/INFO]: BuildCraft5 Power - Integration Disabled
+[22:12:59] [Client thread/INFO]: RedstoneFlux Power - Tiles - Integration Disabled
+[22:12:59] [Client thread/INFO]: RedstoneFlux Power - Items - Integration Disabled
+[22:12:59] [Client thread/INFO]: Mine Factory Reloaded - Integration Disabled
+[22:12:59] [Client thread/INFO]: Deep Storage Unit - Integration Disabled
+[22:12:59] [Client thread/INFO]: Factorization - Integration Disabled
+[22:12:59] [Client thread/INFO]: Forge MultiPart - Integration Disabled
+[22:12:59] [Client thread/INFO]: Rotatable Blocks - Integration Disabled
+[22:12:59] [Client thread/INFO]: Colored Lights Core - Integration Disabled
+[22:12:59] [Client thread/INFO]: Waila - Integration Disabled
+[22:12:59] [Client thread/INFO]: Inventory Tweaks - Integration Disabled
+[22:12:59] [Client thread/INFO]: Not Enough Items - Integration Disabled
+[22:12:59] [Client thread/INFO]: Craft Guide - Integration Disabled
+[22:12:59] [Client thread/INFO]: Mekanism - Integration Disabled
+[22:12:59] [Client thread/INFO]: ImmibisMicroblocks - Integration Disabled
+[22:12:59] [Client thread/INFO]: BetterStorage - Integration Disabled
+[22:13:00] [Client thread/INFO]: PostInit ( end 553ms )
+[22:13:00] [Client thread/INFO]: Post Initialization Complete!
+[22:13:00] [Client thread/INFO]:   Unknown recipe class! appeng.recipes.game.DisassembleRecipe Modder please refer to net.minecraftforge.oredict.RecipeSorter
+[22:13:00] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
+[22:13:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:AE2Xtender
+[22:13:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_Item.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -268,146 +268,104 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_I
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:03:03] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:03:03] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[21:03:04] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:04] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[21:03:04] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[21:03:04] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:04] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:04] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[21:03:04] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[21:03:04] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:03:04] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[21:03:04] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:03:04] [Sound Library Loader/INFO]: Sound engine started
-[21:03:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:03:18] [Server thread/INFO]: Generating keypair
-[21:03:18] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[21:03:18] [Server thread/INFO]: Applying holder lookups
-[21:03:18] [Server thread/INFO]: Holder lookups applied
-[21:03:19] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2c9b45f7)
-[21:03:19] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2c9b45f7)
-[21:03:19] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2c9b45f7)
-[21:03:19] [Server thread/INFO]: Preparing start region for level 0
-[21:03:20] [Server thread/INFO]: Preparing spawn area: 97%
-[21:03:20] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:03:20] [Netty Client IO #0/INFO]: Server protocol version 1
-[21:03:20] [Netty IO #1/INFO]: Client protocol version 1
-[21:03:20] [Netty IO #1/INFO]: Client attempting to join with 6 mods : mcp@9.05,FML@7.10.85.1230,appliedenergistics2@rv2-beta-3,Forge@10.13.2.1230,AE2XTender@1.7.10-1.0,appliedenergistics2-core@rv2-beta-3
-[21:03:20] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[21:03:20] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[21:03:20] [Server thread/INFO]: [Server thread] Server side modded connection established
-[21:03:21] [Server thread/INFO]: Player515[local:E:abb088c9] logged in with entity id 290 at (330.5717333650702, 68.0, -673.3000000119209)
-[21:03:21] [Server thread/INFO]: Player515 joined the game
-[21:03:21] [Client thread/INFO]: [Client thread] Client side modded connection established
-[21:03:32] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:03:32] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:03:32] [Client thread/INFO]: [CHAT] Creating Set 'tc'
-[21:03:34] [Server thread/INFO]: Saving and pausing game...
-[21:03:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:03:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:03:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:03:34] [Server thread/INFO]: Stopping server
-[21:03:34] [Server thread/INFO]: Saving players
-[21:03:34] [Server thread/INFO]: Saving worlds
-[21:03:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:03:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:03:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:03:35] [Server thread/INFO]: Unloading dimension 0
-[21:03:35] [Server thread/INFO]: Unloading dimension -1
-[21:03:35] [Server thread/INFO]: Unloading dimension 1
-[21:03:35] [Server thread/INFO]: Applying holder lookups
-[21:03:35] [Server thread/INFO]: Holder lookups applied
-[21:03:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:03:47] [Server thread/INFO]: Generating keypair
-[21:03:47] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[21:03:47] [Server thread/INFO]: Applying holder lookups
-[21:03:47] [Server thread/INFO]: Holder lookups applied
-[21:03:47] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4b93ccbb)
-[21:03:47] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b93ccbb)
-[21:03:47] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b93ccbb)
-[21:03:47] [Server thread/INFO]: Preparing start region for level 0
-[21:03:48] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:03:48] [Netty Client IO #1/INFO]: Server protocol version 1
-[21:03:48] [Netty IO #3/INFO]: Client protocol version 1
-[21:03:48] [Netty IO #3/INFO]: Client attempting to join with 6 mods : mcp@9.05,FML@7.10.85.1230,appliedenergistics2@rv2-beta-3,Forge@10.13.2.1230,AE2XTender@1.7.10-1.0,appliedenergistics2-core@rv2-beta-3
-[21:03:48] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
-[21:03:48] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[21:03:48] [Server thread/INFO]: [Server thread] Server side modded connection established
-[21:03:48] [Server thread/INFO]: Player515[local:E:a11e56c1] logged in with entity id 787 at (330.5717333650702, 69.73850924309741, -673.3000000119209)
-[21:03:48] [Server thread/INFO]: Player515 joined the game
-[21:03:48] [Client thread/INFO]: [Client thread] Client side modded connection established
-[21:03:49] [Server thread/INFO]: Saving and pausing game...
-[21:03:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:03:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:03:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:04:00] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:04:00] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:04:00] [Client thread/INFO]: [CHAT] Creating Set 'tc'
-[21:04:05] [Server thread/INFO]: Saving and pausing game...
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:04:05] [Server thread/INFO]: Stopping server
-[21:04:05] [Server thread/INFO]: Saving players
-[21:04:05] [Server thread/INFO]: Saving worlds
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:04:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:04:06] [Server thread/INFO]: Unloading dimension 0
-[21:04:06] [Server thread/INFO]: Unloading dimension -1
-[21:04:06] [Server thread/INFO]: Unloading dimension 1
-[21:04:06] [Server thread/INFO]: Applying holder lookups
-[21:04:06] [Server thread/INFO]: Holder lookups applied
-[21:05:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:05:59] [Server thread/INFO]: Generating keypair
-[21:05:59] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[21:05:59] [Server thread/INFO]: Applying holder lookups
-[21:05:59] [Server thread/INFO]: Holder lookups applied
-[21:05:59] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@41c506ec)
-[21:05:59] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@41c506ec)
-[21:05:59] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@41c506ec)
-[21:05:59] [Server thread/INFO]: Preparing start region for level 0
-[21:06:00] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:06:00] [Netty Client IO #2/INFO]: Server protocol version 1
-[21:06:00] [Netty IO #5/INFO]: Client protocol version 1
-[21:06:00] [Netty IO #5/INFO]: Client attempting to join with 6 mods : mcp@9.05,FML@7.10.85.1230,appliedenergistics2@rv2-beta-3,Forge@10.13.2.1230,AE2XTender@1.7.10-1.0,appliedenergistics2-core@rv2-beta-3
-[21:06:00] [Netty IO #5/INFO]: Attempting connection with missing mods [] at CLIENT
-[21:06:00] [Netty Client IO #2/INFO]: Attempting connection with missing mods [] at SERVER
-[21:06:00] [Server thread/INFO]: [Server thread] Server side modded connection established
-[21:06:00] [Server thread/INFO]: Player515[local:E:220c15ea] logged in with entity id 1433 at (330.5717333650702, 69.73850924309741, -673.3000000119209)
-[21:06:00] [Server thread/INFO]: Player515 joined the game
-[21:06:00] [Client thread/INFO]: [Client thread] Client side modded connection established
-[21:06:28] [Client thread/INFO]: [CHAT] ME Chest cannot read storage cell.
-[21:06:38] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:06:38] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
-[21:06:38] [Client thread/INFO]: [CHAT] Creating Set 'tc'
-[21:07:56] [Server thread/INFO]: Saving and pausing game...
-[21:07:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:07:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:07:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:08:26] [Server thread/INFO]: Saving and pausing game...
-[21:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:30:28] [Server thread/INFO]: Stopping server
-[21:30:28] [Server thread/INFO]: Saving players
-[21:30:28] [Server thread/INFO]: Saving worlds
-[21:30:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:30:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:30:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:30:28] [Server thread/INFO]: Unloading dimension 0
-[21:30:28] [Server thread/INFO]: Unloading dimension -1
-[21:30:28] [Server thread/INFO]: Unloading dimension 1
-[21:30:28] [Server thread/INFO]: Applying holder lookups
-[21:30:29] [Server thread/INFO]: Holder lookups applied
-[21:30:29] [Client thread/INFO]: Stopping!
-[21:30:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:30:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[21:30:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[21:30:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:13:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:13:00] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[22:13:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:13:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:13:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:13:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:13:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:13:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:13:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:13:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:13:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:13:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:13:01] [Sound Library Loader/INFO]: Sound engine started
+[22:13:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:13:20] [Server thread/INFO]: Generating keypair
+[22:13:21] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[22:13:21] [Server thread/INFO]: Applying holder lookups
+[22:13:21] [Server thread/INFO]: Holder lookups applied
+[22:13:21] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@70700a7f)
+[22:13:21] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@70700a7f)
+[22:13:21] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@70700a7f)
+[22:13:21] [Server thread/INFO]: Preparing start region for level 0
+[22:13:22] [Server thread/INFO]: Preparing spawn area: 66%
+[22:13:23] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:13:23] [Netty Client IO #0/INFO]: Server protocol version 1
+[22:13:23] [Netty IO #1/INFO]: Client protocol version 1
+[22:13:23] [Netty IO #1/INFO]: Client attempting to join with 6 mods : mcp@9.05,FML@7.10.85.1230,appliedenergistics2@rv2-beta-3,Forge@10.13.2.1230,AE2XTender@1.7.10-1.0,appliedenergistics2-core@rv2-beta-3
+[22:13:23] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[22:13:23] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[22:13:23] [Client thread/INFO]: [Client thread] Client side modded connection established
+[22:13:23] [Server thread/INFO]: [Server thread] Server side modded connection established
+[22:13:23] [Server thread/INFO]: Player281[local:E:f41d044d] logged in with entity id 328 at (330.9211203768792, 69.0, -673.7832993581115)
+[22:13:23] [Server thread/INFO]: Player281 joined the game
+[22:13:38] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:13:38] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:13:38] [Server thread/ERROR]: Couldn't process command: 'xpdr getSet tc'
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.beepbeat.AE2XTender.XPDRCommand.processCommand(XPDRCommand.java:43) ~[XPDRCommand.class:?]
+	at net.minecraft.command.CommandHandler.executeCommand(CommandHandler.java:94) [CommandHandler.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.handleSlashCommand(NetHandlerPlayServer.java:739) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processChatMessage(NetHandlerPlayServer.java:718) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.processPacket(SourceFile:37) [C01PacketChatMessage.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.processPacket(SourceFile:9) [C01PacketChatMessage.class:?]
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:212) [NetworkManager.class:?]
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:165) [NetworkSystem.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:111) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [MinecraftServer$2.class:?]
+[22:13:38] [Client thread/INFO]: [CHAT] An unknown error occurred while attempting to perform this command
+[22:13:54] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:13:54] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:13:54] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:13:54] [Client thread/INFO]: [CHAT] Creating Set 'tc'
+[22:14:03] [Server thread/INFO]: Saving and pausing game...
+[22:14:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:14:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:14:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:15:04] [Server thread/INFO]: {list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:15:04] [Server thread/INFO]: NBT after Command:{list:{#11:{},#10:{},#15:{},#14:{},#13:{},#12:{},#19:{},#18:{},#17:{},#16:{},#60:{},#20:{},#1:{id:4157s,Damage:1s,Count:1b,},#2:{id:4157s,Damage:2s,Count:1b,},#62:{},#22:{},#61:{},#21:{},#0:{id:4157s,Damage:0s,Count:1b,},#24:{},#23:{},#26:{},#25:{},#28:{},#27:{},#29:{},#56:{},#57:{},#9:{},#58:{},#8:{},#59:{},#7:{},#52:{},#6:{},#53:{},#5:{},#54:{},#4:{},#55:{},#3:{id:4157s,Damage:16s,Count:1b,},#37:{},#36:{},#35:{},#34:{},#33:{},#32:{},#31:{},#30:{},#39:{},#38:{},#40:{},#46:{},#45:{},#48:{},#47:{},#42:{},#41:{},#44:{},#43:{},#49:{},#50:{},#51:{},},}
+[22:15:04] [Server thread/ERROR]: Couldn't process command: 'xpdr getSet tc'
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.beepbeat.AE2XTender.XPDRCommand.processCommand(XPDRCommand.java:43) ~[XPDRCommand.class:?]
+	at net.minecraft.command.CommandHandler.executeCommand(CommandHandler.java:94) [CommandHandler.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.handleSlashCommand(NetHandlerPlayServer.java:739) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processChatMessage(NetHandlerPlayServer.java:718) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.processPacket(SourceFile:37) [C01PacketChatMessage.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.processPacket(SourceFile:9) [C01PacketChatMessage.class:?]
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:212) [NetworkManager.class:?]
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:165) [NetworkSystem.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:111) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [MinecraftServer$2.class:?]
+[22:15:04] [Client thread/INFO]: [CHAT] An unknown error occurred while attempting to perform this command
+[22:15:34] [Server thread/INFO]: Saving and pausing game...
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:15:34] [Server thread/INFO]: Stopping server
+[22:15:34] [Server thread/INFO]: Saving players
+[22:15:34] [Server thread/INFO]: Saving worlds
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:15:35] [Server thread/INFO]: Unloading dimension 0
+[22:15:35] [Server thread/INFO]: Unloading dimension -1
+[22:15:35] [Server thread/INFO]: Unloading dimension 1
+[22:15:35] [Server thread/INFO]: Applying holder lookups
+[22:15:35] [Server thread/INFO]: Holder lookups applied
+[22:15:37] [Client thread/INFO]: Stopping!
+[22:15:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:15:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:15:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:15:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
 
 BUILD SUCCESSFUL
 
-Total time: 28 mins 16.753 secs
+Total time: 3 mins 31.814 secs
