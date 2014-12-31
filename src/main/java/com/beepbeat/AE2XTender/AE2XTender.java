@@ -40,7 +40,7 @@ public class AE2XTender
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
-    {
+    {/*
         item1 = new AE2CreativeCell().getItem()
                 .setMaxStackSize(64)
                 .setCreativeTab(CreativeTabs.tabMisc)
@@ -49,7 +49,7 @@ public class AE2XTender
         ItemStack itemStack1 = new ItemStack((item1));
 
         //NBTHelper.initNBTTagCompound(itemStack1);
-        itemStack1=AE2CreativeCell.SetThaumcraft(itemStack1);
+        itemStack1=AE2CreativeCell.SetThaumcraft(itemStack1);*/
 
 
 
@@ -58,7 +58,7 @@ public class AE2XTender
 
         proxy.registerKeyBindings();
 
-        GameRegistry.registerItem(itemStack1.getItem(),"Item");
+        //GameRegistry.registerItem(itemStack1.getItem(),"Item");
 
         //ModItems.init();
 

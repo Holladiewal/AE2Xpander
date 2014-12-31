@@ -171,7 +171,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AE2XTender.iml" filepath="$PROJECT_DIR$/AE2XTender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AE2xtender.iml" filepath="$PROJECT_DIR$/AE2xtender.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
@@ -182,6 +182,22 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="appliedenergistics2-rv2-beta-3-api">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/libs/appliedenergistics2-rv2-beta-3-api.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="appliedenergistics2-rv2-beta-3-dev">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/appliedenergistics2-rv2-beta-3-dev.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </project>
 

@@ -1,0 +1,7 @@
+/out/*
+run
+*.ipr
+*.iws
+*.iml
+gradlew2.bat
+

@@ -20,12 +20,13 @@ import java.util.EnumSet;
 
 public  class ThaumCraftCell extends AEBaseItem implements ICellWorkbenchItem {
     ItemStack is = new ItemStack(new ItemCreativeStorageCell());
-    ItemStack is2 = new ItemStack(new ThaumCraftCell());
+    //ItemStack is2 = new ItemStack(new ThaumCraftCell());
 
     public ThaumCraftCell() {
         super( ItemCreativeStorageCell.class );
         this.setFeature( EnumSet.of( AEFeature.StorageCells, AEFeature.Creative ) );
         this.setMaxStackSize( 1 );
+
 
     }
 
