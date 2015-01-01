@@ -36,7 +36,7 @@ public class XPDRCommand extends CommandBase
     public void processCommand(ICommandSender sender, String[] parameters) {
         EntityPlayer player = (EntityPlayer) sender;
         if (parameters.length == 0 || parameters[0].equals("help")) {
-            player.addChatMessage(new ChatComponentText("Usage: '/xpdr getSet <SetID>'"));
+            player.addChatMessage(new ChatComponentText("Usage: '/xpdr <SetID>'"));
             player.addChatMessage(new ChatComponentText("Available Sets: vanilla, AE tools, AE balls, AE cells"));
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("vanilla")) {

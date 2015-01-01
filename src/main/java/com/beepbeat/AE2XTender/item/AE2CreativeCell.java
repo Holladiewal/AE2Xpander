@@ -40,7 +40,7 @@ public class AE2CreativeCell  {
         id[20] = (short) getIdFromItem(AEApi.instance().items().itemNetworkTool.item());
 
 
-        player.inventory.addItemStackToInventory(setNBTSet(isTool,id,damage,"AE2Tools"));
+        player.inventory.addItemStackToInventory(setNBTSet(isTool,id,damage,"AE2 Tools"));
 
     }
     public static void createCellDisk(EntityPlayer player) {
