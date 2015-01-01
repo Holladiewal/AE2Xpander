@@ -6,6 +6,7 @@ import appeng.api.IAppEngApi;
 import appeng.api.util.AEItemDefinition;
 import appeng.util.item.AEItemStack;
 import com.beepbeat.AE2XTender.item.AE2CreativeCell;
+import com.beepbeat.AE2XTender.item.ThaumcraftCreativeCell;
 import com.beepbeat.AE2XTender.item.VanillaCreativeCell;
 import com.beepbeat.AE2XTender.utility.LogHelper;
 import net.minecraft.block.Block;
@@ -37,7 +38,7 @@ public class XPDRCommand extends CommandBase
         EntityPlayer player = (EntityPlayer) sender;
         if (parameters.length == 0 || parameters[0].equals("help")) {
             player.addChatMessage(new ChatComponentText("Usage: '/xpdr <SetID>'"));
-            player.addChatMessage(new ChatComponentText("Available Sets: vanilla, AE tools, AE balls, AE cells"));
+            player.addChatMessage(new ChatComponentText("Available Sets: vanilla, AE tools, AE balls, AE cells, tc"));
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("vanilla")) {
             VanillaCreativeCell.createVanillaCell(player);
@@ -55,7 +56,9 @@ public class XPDRCommand extends CommandBase
             if (parameters.length >= 2 && parameters[1].toLowerCase().equals("cells")) {
                 AE2CreativeCell.createCellDisk(player);
             }
-
+        }
+        else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("tc")) {
+            ThaumcraftCreativeCell.createThaumcraftItemCell(player);
         }
     }
 
