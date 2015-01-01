@@ -1,6 +1,8 @@
 package com.beepbeat.AE2XTender;
 
 
+import appeng.api.AEApi;
+import appeng.api.IAppEngApi;
 import appeng.api.util.AEItemDefinition;
 import appeng.util.item.AEItemStack;
 import com.beepbeat.AE2XTender.item.AE2CreativeCell;
@@ -33,62 +35,28 @@ public class XPDRCommand extends CommandBase
     @Override
     public void processCommand(ICommandSender sender, String[] parameters) {
         EntityPlayer player = (EntityPlayer) sender;
-        if (parameters.length == 0) {
+        if (parameters.length == 0 || parameters[0].equals("help")) {
             player.addChatMessage(new ChatComponentText("Usage: '/xpdr getSet <SetID>'"));
-            player.addChatMessage(new ChatComponentText("requires creative Cell in left hotbar slot"));
+            player.addChatMessage(new ChatComponentText("Available Sets: vanilla, AE tools, AE balls, AE cells"));
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("vanilla")) {
-            ItemStack stack = player.inventory.getStackInSlot(0);
-            stack = VanillaCreativeCell.createVanillaCell(stack);
-            player.inventory.addItemStackToInventory(stack);
+            VanillaCreativeCell.createVanillaCell(player);
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("test")) {
-            //ItemStack stack = player.inventory.getStackInSlot(0);
-            ItemStack stack = new ItemStack(new appeng.items.storage.ItemCreativeStorageCell());
-            stack = VanillaCreativeCell.createVanillaCell(stack);
-            player.inventory.addItemStackToInventory(stack);
 
         }
+        else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("ae")) {
+            if (parameters.length >= 2 && parameters[1].toLowerCase().equals("tools")) {
+                AE2CreativeCell.createToolDisk(player);
+            }
+            if (parameters.length >= 2 && parameters[1].toLowerCase().equals("balls")) {
+                AE2CreativeCell.createBallDisk(player);
+            }
+            if (parameters.length >= 2 && parameters[1].toLowerCase().equals("cells")) {
+                AE2CreativeCell.createCellDisk(player);
+            }
 
+        }
     }
 
-    /*@Override
-    public void processCommand(ICommandSender sender, String[] parameters) {
-        EntityPlayer player = (EntityPlayer) sender;
-
-                if (parameters.length == 0) {player.addChatMessage(new ChatComponentText("Usage: '/xpdr getSet <SetID>'"));}
-
-                 if (parameters[0].equals("getSet")) {
-                    if (parameters.length >= 2){
-                        if (parameters[1].equals("tc") && parameters.length == 2) {
-                            ItemStack ItemsToDrop = AE2CreativeCell.SetThaumcraft(new ItemStack(new ThaumCraftCell()));
-                            LogHelper.info("NBT after Command:" + ItemsToDrop.getTagCompound().toString());
-
-                            EntityItem dropItem = new EntityItem(player.getEntityWorld(), player.posX, player.posY, player.posZ, ItemsToDrop);
-                            dropItem.delayBeforeCanPickup = 0;
-                            player.getEntityWorld().spawnEntityInWorld(dropItem);
-                            player.addChatMessage(new ChatComponentText("Creating Set 'tc'"));
-                        }
-                            //player.dropItem(ItemsToDrop.getItem().setUnlocalizedName("Creative Cell:tc").setMaxStackSize(1), 1);
-                            else if (parameters[2] != null) {
-                                player.addChatMessage(new ChatComponentText("Creating Set 'tc'"));
-                                ItemStack tmpStack = player.inventory.getStackInSlot(Integer.parseInt(parameters[2]));
-                                player.inventory.addItemStackToInventory(AE2CreativeCell.SetThaumcraft(tmpStack));
-                            }
-
-
-
-
-                    }
-                else {player.addChatMessage(new ChatComponentText("Missing Arguments"));}
-                }
-                else if (sender instanceof EntityPlayer) {
-                     player.addChatMessage(new ChatComponentText("Usage: '/xpdr getSet <SetID>'"));
-
-
-                 }
-
-
-
-    }*/
 }

@@ -1,70 +1,81 @@
 package com.beepbeat.AE2XTender.item;
 
 
-
-import appeng.items.storage.ItemCreativeStorageCell;
-
-import com.beepbeat.AE2XTender.utility.LogHelper;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import appeng.api.AEApi;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
 
-public class AE2CreativeCell extends Item {
-    //ItemCreativeStorageCell CreCell = new ItemCreativeStorageCell();
+import static net.minecraft.item.Item.getIdFromItem;
+import static com.beepbeat.AE2XTender.utility.AE2CellPreformatterHelper.setNBTSet;
+
+public class AE2CreativeCell  {
+
+    public static void createToolDisk(EntityPlayer player) {
+        ItemStack isTool = AEApi.instance().items().itemCellCreative.stack(1);
+        short[] id = new short[21];
+        short[] damage = new short[21];
+
+        id[0] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzAxe.item());
+        id[1] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzHoe.item());
+        id[2] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzShovel.item());
+        id[3] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzPick.item());
+        id[4] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzSword.item());
+        id[5] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzWrench.item());
+        id[6] = (short) getIdFromItem(AEApi.instance().items().itemCertusQuartzKnife.item());
+
+        id[7] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzAxe.item());
+        id[8] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzHoe.item());
+        id[9] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzShovel.item());
+        id[10] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzPick.item());
+        id[11] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzSword.item());
+        id[12] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzWrench.item());
+        id[13] = (short) getIdFromItem(AEApi.instance().items().itemNetherQuartzKnife.item());
+
+        id[14] = (short) getIdFromItem(AEApi.instance().items().itemEntropyManipulator.item());
+        id[15] = (short) getIdFromItem(AEApi.instance().items().itemWirelessTerminal.item());
+        id[16] = (short) getIdFromItem(AEApi.instance().items().itemBiometricCard.item());
+        id[17] = (short) getIdFromItem(AEApi.instance().items().itemChargedStaff.item());
+        id[18] = (short) getIdFromItem(AEApi.instance().items().itemMassCannon.item());
+        id[19] = (short) getIdFromItem(AEApi.instance().items().itemMemoryCard.item());
+        id[20] = (short) getIdFromItem(AEApi.instance().items().itemNetworkTool.item());
 
 
+        player.inventory.addItemStackToInventory(setNBTSet(isTool,id,damage,"AE2Tools"));
 
+    }
+    public static void createCellDisk(EntityPlayer player) {
 
-   public static Item CreCellItem = new ItemCreativeStorageCell();
-   //public ItemStack CreCellItemStack = new ItemStack(CreCellItem);
-   public static Item getItem(){ return CreCellItem;}
-   public static ItemStack getCreCellItemStack(){return new ItemStack(new ItemCreativeStorageCell());}
+        ItemStack isCell = AEApi.instance().items().itemCellCreative.stack(1);
+        short[] id = new short[10];
+        short[] damage = new short[10];
 
+        id[0] = (short) getIdFromItem(AEApi.instance().items().itemPortableCell.item());
+        id[1] = (short) getIdFromItem(AEApi.instance().items().itemCellCreative.item());
+        id[2] = (short) getIdFromItem(AEApi.instance().items().itemViewCell.item());
+        id[3] = (short) getIdFromItem(AEApi.instance().items().itemCell1k.item());
+        id[4] = (short) getIdFromItem(AEApi.instance().items().itemCell4k.item());
+        id[5] = (short) getIdFromItem(AEApi.instance().items().itemCell16k.item());
+        id[6] = (short) getIdFromItem(AEApi.instance().items().itemCell64k.item());
+        id[7] = (short) getIdFromItem(AEApi.instance().items().itemSpatialCell2.item());
+        id[8] = (short) getIdFromItem(AEApi.instance().items().itemSpatialCell16.item());
+        id[9] = (short) getIdFromItem(AEApi.instance().items().itemSpatialCell128.item());
 
-   public static ItemStack SetThaumcraft(ItemStack itemstack) {
+        player.inventory.addItemStackToInventory(setNBTSet(isCell, id, damage, "AE2 Storage Cells"));
+    }
+    public static void createBallDisk(EntityPlayer player) {
+        ItemStack isBall = AEApi.instance().items().itemCellCreative.stack(1);
 
-       /*short[] id = {4157, 4157, 4175, 4175};
-       short[] damage = {0, 1, 2, 16};*/
-       short[] id = new short[64];
-       short[] damage = new short[64];
-       id[0] = 4157; damage[0] = 0;
-       id[1] = 4157; damage[1] = 1;
-       id[2] = 4157; damage[2] = 2;
-       id[3] = 4157; damage[3] = 16;
+        short[] id = new short[34];
+        short[] damage = new short[34];
 
-       return setNBTSet(itemstack, id, damage);
+        for(int i = 0;i<id.length;i++) { id[i] = (short) 4133;}
+        for(int i = 0;i<16;i++) {damage[i] = (short) i;}
+        for(int i = 0;i<16;i++) {damage[i+16] = (short) (i + 16 + 4);}
+        player.inventory.addItemStackToInventory(setNBTSet(isBall, id, damage, "AE2 Paint Balls"));
+
 
     }
 
-   public static ItemStack setNBTSet(ItemStack itemStack, short[] id, short[] damage) {
-       NBTTagCompound tag = new NBTTagCompound();
-       NBTTagCompound list = new NBTTagCompound();
 
-
-       for(int i = 0;(i <= 62) && (i < id.length);i++) {
-           if (id[i] != 0) {
-               NBTTagCompound numbered = new NBTTagCompound();
-               numbered.setByte("Count", (byte) 1);
-               numbered.setShort("Damage", damage[i]);
-               numbered.setShort("id", id[i]);
-               list.setTag("#" + i, numbered);
-           }
-           else {NBTTagCompound numbered = new NBTTagCompound(); list.setTag("#" + i, numbered);}
-
-
-       }
-       tag.setTag("list", list);
-       /*NBTTagCompound tagfinal  = new NBTTagCompound();
-       /tagfinal.setTag("tag", tag);*/
-       itemStack.setTagCompound(tag);
-       itemStack.getItem().setCreativeTab(CreativeTabs.tabMisc).setMaxStackSize(1);
-       LogHelper.info(itemStack.getTagCompound().toString());
-
-       return itemStack;
-
-
-
-   }
 
 }

@@ -13,20 +13,6 @@ import net.minecraft.item.ItemStack;
 public class ModItems
 {
     public void init() {
-        Item item1;
-        item1 = new AE2CreativeCell().getItem()
-                .setMaxStackSize(64)
-                .setCreativeTab(CreativeTabs.tabMisc)
-                .setUnlocalizedName("Item")
-                .setContainerItem(AE2CreativeCell.getItem());
-        ItemStack itemStack1 = new ItemStack((item1));
 
-        //NBTHelper.initNBTTagCompound(itemStack1);
-        itemStack1=AE2CreativeCell.SetThaumcraft(itemStack1);
-
-
-
-
-        GameRegistry.registerItem(itemStack1.getItem(),"Item");
     }
 }
