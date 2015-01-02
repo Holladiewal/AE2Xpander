@@ -1,7 +1,6 @@
 package com.beepbeat.AE2XTender;
 
 
-import com.beepbeat.AE2XTender.handler.ConfigurationHandler;
 import com.beepbeat.AE2XTender.item.AE2CreativeCell;
 
 import com.beepbeat.AE2XTender.proxy.IProxy;
@@ -53,8 +52,7 @@ public class AE2XTender
 
 
 
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
 
         proxy.registerKeyBindings();
 
@@ -82,7 +80,7 @@ public class AE2XTender
     }
 
     @EventHandler
-    public void FMLStarting(FMLServerStartingEvent event)
+    public void ServerStarting(FMLServerStartingEvent event)
     {
         event.registerServerCommand(new com.beepbeat.AE2XTender.XPDRCommand());
     }

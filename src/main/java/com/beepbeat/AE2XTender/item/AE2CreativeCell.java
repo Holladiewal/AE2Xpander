@@ -4,6 +4,7 @@ package com.beepbeat.AE2XTender.item;
 import appeng.api.AEApi;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ChatComponentText;
 
 import static net.minecraft.item.Item.getIdFromItem;
 import static com.beepbeat.AE2XTender.utility.AE2CellPreformatterHelper.setNBTSet;
@@ -65,13 +66,16 @@ public class AE2CreativeCell  {
     public static void createBallDisk(EntityPlayer player) {
         ItemStack isBall = AEApi.instance().items().itemCellCreative.stack(1);
 
-        short[] id = new short[34];
-        short[] damage = new short[34];
+        short[] id = new short[32];
+        short[] damage = new short[32];
+        ItemStack[] itemStack = AEApi.instance().items().itemPaintBall.allStacks(1);
+        //player.addChatMessage(new ChatComponentText("" + itemStack.length));
+        //player.addChatMessage(new ChatComponentText(itemStack.toString()));
 
-        for(int i = 0;i<id.length;i++) { id[i] = (short) 4133;}
+        /*for(int i = 0;i<id.length;i++) { id[i] = (short) 4133;}
         for(int i = 0;i<16;i++) {damage[i] = (short) i;}
         for(int i = 0;i<16;i++) {damage[i+16] = (short) (i + 16 + 4);}
-        player.inventory.addItemStackToInventory(setNBTSet(isBall, id, damage, "AE2 Paint Balls"));
+        player.inventory.addItemStackToInventory(setNBTSet(isBall, id, damage, "AE2 Paint Balls"));*/
 
 
     }
