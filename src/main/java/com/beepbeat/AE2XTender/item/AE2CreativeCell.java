@@ -64,18 +64,26 @@ public class AE2CreativeCell  {
         player.inventory.addItemStackToInventory(setNBTSet(isCell, id, damage, "AE2 Storage Cells"));
     }
     public static void createBallDisk(EntityPlayer player) {
-        ItemStack isBall = AEApi.instance().items().itemCellCreative.stack(1);
 
-        short[] id = new short[32];
-        short[] damage = new short[32];
-        ItemStack[] itemStack = AEApi.instance().items().itemPaintBall.allStacks(1);
-        //player.addChatMessage(new ChatComponentText("" + itemStack.length));
-        //player.addChatMessage(new ChatComponentText(itemStack.toString()));
+        try {
+            ItemStack isBall = AEApi.instance().items().itemCellCreative.stack(1);
+            player.addChatMessage(new ChatComponentText("Got a cell!"));
 
-        /*for(int i = 0;i<id.length;i++) { id[i] = (short) 4133;}
-        for(int i = 0;i<16;i++) {damage[i] = (short) i;}
-        for(int i = 0;i<16;i++) {damage[i+16] = (short) (i + 16 + 4);}
-        player.inventory.addItemStackToInventory(setNBTSet(isBall, id, damage, "AE2 Paint Balls"));*/
+            short[] id = new short[34];
+            short[] damage = new short[34];
+            /*player.addChatMessage(new ChatComponentText("trying to get all paintballs..."));
+            ItemStack[] itemStack = AEApi.instance().items().itemPaintBall.allStacks(1);
+            player.addChatMessage(new ChatComponentText("got all paintballs!"));
+            player.addChatMessage(new ChatComponentText("" + itemStack.length));
+            player.addChatMessage(new ChatComponentText(itemStack.toString()));*/
+
+        for(int i = 0;i<id.length;i++) { id[i] = (short) 4133;}
+        for(int i = 0;i<17;i++) {damage[i] = (short) i;}
+        for(int i = 0;i<17;i++) {damage[i+17] = (short) (i + 16 + 4);}
+        player.inventory.addItemStackToInventory(setNBTSet(isBall, id, damage, "AE2 Paint Balls"));
+        } catch (Exception e) {
+            player.addChatMessage(new ChatComponentText("Looks like Paint Balls and/or Creative Cells are disabled"));
+        }
 
 
     }
