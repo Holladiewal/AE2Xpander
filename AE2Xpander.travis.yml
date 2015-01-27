@@ -1,2 +1,0 @@
-install: ./gradlew setupCIWorkspace
-script: "./gradlew build"
