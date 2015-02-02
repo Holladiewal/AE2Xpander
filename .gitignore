@@ -1,7 +1,0 @@
-/out/*
-run
-libs
-*.ipr
-*.iws
-*.iml
-gradlew2.bat
