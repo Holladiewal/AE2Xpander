@@ -195,6 +195,13 @@
         <root url="jar://$USER_HOME$/Downloads/Applied-Energistics-2-eb74fb33b823d0b3730600b862315acf1eeff5f2.zip!/Applied-Energistics-2-eb74fb33b823d0b3730600b862315acf1eeff5f2/src/test/java" />
       </SOURCES>
     </library>
+    <library name="appliedenergistics2-rv2-beta-7-dev (2)">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/appliedenergistics2-rv2-beta-7-dev.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Thaumcraft-1.7.10-4.2.2.1-api">
       <CLASSES />
       <JAVADOC />

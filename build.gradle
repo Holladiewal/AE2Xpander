@@ -9,6 +9,18 @@ buildscript {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
+		maven {
+			name 'CB Maven FS'
+			url "http://chickenbones.net/maven/"
+		}
+		maven {
+			name "Waila Mobius Repo"
+			url "http://mobiusstrip.eu/maven"
+		}
+		maven {
+			name "FireBall API Depot"
+			url "http://dl.tsr.me/artifactory/libs-release-local"
+		}
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
@@ -18,7 +30,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-1.0"
+version = "1.7.10-1.1"
 group = "com.beepbeat.AE2xtender" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "AE2xtender"
 
@@ -27,8 +39,11 @@ minecraft {
 }
 
 dependencies {
-    // compile "appeng:appliedenergistics2:rv2-beta-8:dev"
-    compile files("libs/*")
+    //http://www.twitch.tv/fireball1725dev/b/618769797?t=52m20s
+	//http://www.twitch.tv/soaryn/v/3742843?t=44m38s
+	// compile "appeng:appliedenergistics2:rv2-beta-8:dev"
+    //compile files("libs/*")
+	compile fileTree(dir: 'libs', include: '*.jar')
 	// you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"

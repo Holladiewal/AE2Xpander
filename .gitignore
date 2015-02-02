@@ -1,0 +1,16 @@
+#folders
+.gradle
+#artifact output from 'gradlew build'
+build/
+#temporary directory from 'gradlew runClient' or 'gradlew runServer'
+run/
+#output directory
+out/
+######################################################################################################################
+#files
+#.gitignore
+#ignore AE-lib
+libs/appliedenergistics2-rv2-beta-7-dev.jar
+
+
+
