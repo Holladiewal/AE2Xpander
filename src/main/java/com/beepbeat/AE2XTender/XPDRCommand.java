@@ -56,6 +56,11 @@ public class XPDRCommand extends CommandBase
             if (parameters.length >= 2 && parameters[1].toLowerCase().equals("cells")) {
                 AE2CreativeCell.createCellDisk(player);
             }
+            if (parameters.length == 1){
+                AE2CreativeCell.createToolDisk(player);
+                AE2CreativeCell.createBallDisk(player);
+                AE2CreativeCell.createCellDisk(player);
+            }
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("tc")) {
             ThaumcraftCreativeCell.createThaumcraftItemCell(player);

@@ -218,6 +218,13 @@
         <root url="file://$PROJECT_DIR$/../thaumcraft-api/src/main/com/azanor" />
       </SOURCES>
     </library>
+    <library name="util">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/libs/util" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </project>
 
