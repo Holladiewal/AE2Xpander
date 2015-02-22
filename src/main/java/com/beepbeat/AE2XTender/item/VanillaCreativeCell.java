@@ -31,8 +31,7 @@ public class VanillaCreativeCell  {
     public static List<String> BlockswithMetaData = new ArrayList<String>();
 
 
-    public static void createVanillaCell(EntityPlayer player)
-    {
+    public static void createVanillaCell(EntityPlayer player) throws Exception {
         BlockswithMetaData.add("minecraft:wool");
         BlockswithMetaData.add(String.valueOf(16));
 
@@ -100,7 +99,7 @@ public class VanillaCreativeCell  {
 
 
             }
-            player.inventory.addItemStackToInventory(setNBTSet(is1, id[j], damage[j], "Vanilla " + String.valueOf(j + 1)));
+
             LogHelper.warn("Created Vanilla Cell " + String.valueOf(j+1)+" added to "+player.getDisplayName() + " with " + id[j].length + "item entries");
             //while(!player.inventory.inventoryChanged){}
             try {
@@ -108,13 +107,16 @@ public class VanillaCreativeCell  {
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 LogHelper.fatal("Got Error while Sleeping this Thread;Report to Developer immediately!!!");
+                //throw(new Exception("Fatal Error"));
             }
             if (player.inventory.hasItemStack(setNBTSet(is1, id[j], damage[j], "Vanilla " + String.valueOf(j + 1)))){
                 LogHelper.warn("Inventory of "+player.getDisplayName()+" changed");
             }
 
         }
-
+        for (int j=0;j < id.length && j < damage.length;j++) {
+            player.inventory.addItemStackToInventory(setNBTSet(is1, id[j], damage[j], "Vanilla " + String.valueOf(j + 1)));
+        }
 
 
     }

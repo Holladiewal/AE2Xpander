@@ -9,6 +9,7 @@ import com.beepbeat.AE2XTender.item.AE2CreativeCell;
 import com.beepbeat.AE2XTender.item.ThaumcraftCreativeCell;
 import com.beepbeat.AE2XTender.item.VanillaCreativeCell;
 import com.beepbeat.AE2XTender.utility.LogHelper;
+import javafx.application.Application;
 import net.minecraft.block.Block;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.ICommandSender;
@@ -41,7 +42,11 @@ public class XPDRCommand extends CommandBase
             player.addChatMessage(new ChatComponentText("Available Sets: vanilla, AE tools, AE balls, AE cells, tc"));
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("vanilla")) {
-            VanillaCreativeCell.createVanillaCell(player);
+            try {
+                VanillaCreativeCell.createVanillaCell(player);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
         else if (parameters.length >= 1 && parameters[0].toLowerCase().equals("test")) {
 
