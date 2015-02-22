@@ -9,7 +9,6 @@ import com.beepbeat.AE2XTender.item.AE2CreativeCell;
 import com.beepbeat.AE2XTender.item.ThaumcraftCreativeCell;
 import com.beepbeat.AE2XTender.item.VanillaCreativeCell;
 import com.beepbeat.AE2XTender.utility.LogHelper;
-import javafx.application.Application;
 import net.minecraft.block.Block;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.ICommandSender;
